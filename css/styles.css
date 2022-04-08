@@ -8,6 +8,9 @@
 }
 body {
   font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   background-color: var(--white-color);
   color: var(--main-text-color);
@@ -24,14 +27,15 @@ body {
 .logo-color {
   color: var(--link-color);
 }
-.nav-section {
+.list {
   list-style: none;
 }
+
 .nav-links {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
@@ -42,14 +46,12 @@ body {
 .nav-links:focus {
   color: var(--link-color);
 }
-.contacts {
-  list-style: none;
-}
+
 .contact {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.15;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -79,14 +81,74 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   background-color: var(--link-color);
   color: var(--white-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
+  background-color: #188ce8;
 }
 /* skills section styles */
 
+.skills-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+/* what we are doing styles */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--title-color);
+}
+
+/* Our team section style */
+.team-section {
+  background-color: #f5f4fa;
+}
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--title-color);
+}
+.work-position {
+  text-align: center;
+}
+
+/* PORTFOLIO PAGE STYLES */
+.filter-btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: var(--title-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--link-color);
+  color: var(--white-color);
+}
+.project-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
 /* footer styles */
 .foot {
   background-color: #2f303a;
@@ -96,7 +158,6 @@ body {
 }
 .address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
@@ -104,7 +165,6 @@ body {
 .foot-contact {
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7px;
   color: rgba(255, 255, 255, 0.6);
