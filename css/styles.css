@@ -1,0 +1,115 @@
+/* Webstudio styles sheet */
+/* general styles */
+:root {
+  --title-color: #212121;
+  --white-color: #ffffff;
+  --link-color: #2196f3;
+  --main-text-color: #757575;
+}
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+}
+/* header styles */
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--title-color);
+}
+.logo-color {
+  color: var(--link-color);
+}
+.nav-section {
+  list-style: none;
+}
+.nav-links {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.current {
+  color: var(--link-color);
+}
+.nav-links:hover,
+.nav-links:focus {
+  color: var(--link-color);
+}
+.contacts {
+  list-style: none;
+}
+.contact {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--link-color);
+}
+
+/* main styles */
+/* hero section styles */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.hero-btn {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--link-color);
+  color: var(--white-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+}
+/* skills section styles */
+
+/* footer styles */
+.foot {
+  background-color: #2f303a;
+}
+.foot-color {
+  color: var(--white-color);
+}
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-color);
+}
+.foot-contact {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.foot-contact:hover,
+.foot-contact:focus {
+  color: var(--white-color);
+}
